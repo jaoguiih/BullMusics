@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color:#da0e0e;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;    
+    padding: 2px;
+}
+
+a {
+    color: rgb(58, 97, 148);
+    text-decoration: none;
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.voltar {
+    color: rgb(58, 97, 148);
+    font-size: larger;
+}
+
+footer {
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    background-color:#da0e0e;
+    margin-top: 50px;
+}

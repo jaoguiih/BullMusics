@@ -1,0 +1,75 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: rgb(204, 204, 204);
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;    
+    padding: 2px;
+}
+
+.jaosome {
+    background-color: rgb(233, 233, 233);
+    font-size: larger;
+}
+
+.isso {
+    background-color: rgb(207, 207, 207);
+    font-size: larger;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 70px;
+
+}
+
+img {
+    padding: 3px;
+    background-color: rgb(68, 68, 68);
+}
+
+nav a {
+    border: 3px solid;
+    border-radius: 6px;
+    border-style:inset;
+}
+
+nav p {
+    margin-bottom: 10px;
+}
+
+nav img {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+footer {
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    margin-top: 50px;
+}
