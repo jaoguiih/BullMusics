@@ -1,0 +1,65 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('guiih/imgg/wall.png');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgb(221, 219, 219);
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;    
+    padding: 2px;
+}
+
+
+a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    border: 3px solid;
+    border-radius: 6px;
+    border-style: ridge;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.404);
+    transition: ease 0.5s;
+}
+
+nav a:hover {
+    background-color: rgb(233, 233, 233);
+    transform: scale(0.9);
+}
+
+nav a p {
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+}
+
+img {
+    padding: 5px;
+}
